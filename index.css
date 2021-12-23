@@ -1,0 +1,74 @@
+#ClockContainer{
+    position :relative;
+    margin: auto;
+    height:50vw;
+    width: 50vw;
+    background: url(Clock.png)  no-repeat;
+    background-size: 100%;
+    display: none;
+    background-color: #3c24c4;
+    padding :20px;
+    border : 15px solid black;
+    border-radius: 25px;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: flex-end;
+ }
+
+#hour , #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+.red, .red:hover{
+    background-color: #008888;
+    padding: 8%;
+    margin-left: 16%;
+}
+
+.red:hover{
+    background-color: #025858;
+}
+
+.bg-indigo{
+    padding: 10%;
+}
+
+#hour{
+    width: 1.8%;
+    height: 17%;
+    top: 22%;
+    left: 48.5%;
+    opacity: 0.8;
+}
+
+#second{
+    width: 1%;
+    height: 28%;
+    top: 10%;
+    left: 49%;
+    opacity: 0.8;
+}
+
+#minute{
+    width: 1%;
+    height: 23%;
+    top: 16%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+body{
+    background-color: #700d52;
+}
+
+.digital-time{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    margin-bottom: 8%;
+}
